@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammed Sahid M A | Software Engineer</title>
+    <meta name="description"
+        content="Portfolio of Muhammed Sahid M A, Software Engineer specializing in ASP.NET Core, C#, and SQL Server.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- FontAwesome Config -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="cursorGlow"></div> 
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-content">
+  
+<a href="#home" class="logo">
+    <img src="logo.png" alt="Muhammed Sahid Logo">
+    <span>Muhammed Sahid M A</span>
+</a>        
+
+
+
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact" class="btn-nav">Contact Me</a></li>
+            </ul>
+            <button id="themeToggle" class="theme-toggle">
+<i class="fas fa-moon"></i>
+</button>
+
+            <div class="menu-btn"><i class="fas fa-bars"></i></div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero section-padding">
+        <div class="hero-content">
+            <span class="greeting">Hello, I'm</span>
+           <h1 class="name">
+Muhammed Sahid M A
+</h1>
+<p class="subtitle">Software Engineer • .NET Developer • Backend Specialist</p>
+            <h2 class="title">
+<span id="typingRole"></span>
+</h2>
+            <p class="summary">
+                3+ years of experience in designing and developing scalable backend applications using ASP.NET Core, C#,
+                and SQL Server.
+                Passionate about building RESTful APIs, enterprise ERP solutions, and clean, maintainable architecture.
+            </p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-outline">Let's Connect</a>
+<a href="resume.pdf" download class="btn btn-primary">
+Download Resume <i class="fas fa-download"></i>
+</a>
+            </div>
+            <div class="social-links-hero">
+                <a href="https://www.linkedin.com/in/muhammed-sahid-m-a-18a348285" target="_blank"
+                    aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/Shahid1341" target="_blank" aria-label="GitHub"><i
+                        class="fab fa-github"></i></a>
+                <a href="mailto:muhammedshahid823@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="glow-orb orb-1"></div>
+            <div class="glow-orb orb-2"></div>
+            <div class="profile-img-container">
+                <img src="profile.jpg.JPG" alt="Muhammed Sahid" class="profile-img" id="profileImage">
+            </div>
+        </div>
+    </section>
+
+<!-- Stats Section -->
+<section class="stats section-padding">
+
+<div class="stats-container">
+
+<div class="stat-box">
+<h2 class="counter" data-target="3">0</h2>
+<p>Years Experience</p>
+</div>
+
+<div class="stat-box">
+<h2 class="counter" data-target="15">0</h2>
+<p>Projects Completed</p>
+</div>
+
+<div class="stat-box">
+<h2 class="counter" data-target="10">0</h2>
+<p>APIs Built</p>
+</div>
+
+<div class="stat-box">
+<h2 class="counter" data-target="5">0</h2>
+<p>Enterprise Systems</p>
+</div>
+
+</div>
+
+</section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section-padding bg-alt">
+        <div class="section-header">
+            <span class="subtitle">My Expertise</span>
+            <h2>Technical Skills</h2>
+        </div>
+
+        <div class="skills-grid">
+            <div class="skill-card reveal">
+                <div class="icon-wrapper"><i class="fas fa-server"></i></div>
+                <h3>Backend Development</h3>
+                <ul class="skill-list">
+                      <div class="skill-progress">
+                      <span>.NET Core</span>
+                      <div class="progress-bar">
+                     <div class="progress" data-width="90"></div>
+                    </div>
+                    </div>
+                    <li>RESTful API Design</li>
+                    <li>Entity Framework Core, Dapper</li>
+                    <li>Microservices</li>
+                    <li>Clean & Layered Architecture</li>
+                    <li>SOLID & Repository Pattern</li>
+                  
+                </ul>
+            </div>
+
+            <div class="skill-card reveal">
+                <div class="icon-wrapper"><i class="fas fa-database"></i></div>
+                <h3>Database</h3>
+                <ul class="skill-list">
+                     <div class="skill-progress">
+                      <span>Servers</span>
+                      <div class="progress-bar">
+                     <div class="progress" data-width="90"></div>
+                     </div>
+                    </div>
+                    <li>MS SQL Server (2017+)</li>
+                    <li>Oracle 11g, Informix</li>
+                    <li>Stored Procedures & Functions</li>
+                    <li>Query Optimization & Indexing</li>
+                    <li>Execution Plan Analysis</li>
+                </ul>
+            </div>
+
+            <div class="skill-card reveal">
+                <div class="icon-wrapper"><i class="fas fa-code"></i></div>
+                <h3>Frontend</h3>
+                <ul class="skill-list">
+                     <div class="skill-progress">
+                      <span>Frontends</span>
+                      <div class="progress-bar">
+                     <div class="progress" data-width="90"></div>
+                     </div>
+                     </div>
+                    <li>HTML5, CSS3, Bootstrap</li>
+                    <li>JavaScript, jQuery, AJAX</li>
+                    <li>Responsive Web Design</li>
+                    <li>Angular (Basic)</li>
+                </ul>
+            </div>
+
+            <div class="skill-card reveal">
+                <div class="icon-wrapper"><i class="fas fa-cloud"></i></div>
+                <h3>Cloud & Tools</h3>
+                <ul class="skill-list">
+                     <div class="skill-progress">
+                      <span>Clouds</span>
+                      <div class="progress-bar">
+                     <div class="progress" data-width="90"></div>
+                    </div>
+                    </div>
+                    <li>Azure DevOps (Git, CI/CD)</li>
+                    <li>Docker & Deployment (Basic)</li>
+                    <li>Visual Studio, Swagger</li>
+                    <li>Crystal Reports</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section-padding">
+        <div class="section-header">
+            <span class="subtitle">What I Do</span>
+            <h2>My Services</h2>
+        </div>
+
+        <div class="services-track reveal">
+            <div class="service-row">
+                <div class="service-info">
+                    <h3>01 // API Development & Integration</h3>
+                    <p>Building secure, scalable RESTful APIs using ASP.NET Core and integrating third-party services
+                        with JSON and JWT authentication.</p>
+                </div>
+            </div>
+            <div class="service-row">
+                <div class="service-info">
+                    <h3>02 // ERP & Enterprise Systems</h3>
+                    <p>Designing and enhancing ERP modules supporting finance, inventory, and automated workflows across
+                        large organizations.</p>
+                </div>
+            </div>
+            <div class="service-row">
+                <div class="service-info">
+                    <h3>03 // Database Engineering</h3>
+                    <p>Complex MS SQL database design, performance query optimization, bulk data processing, and stored
+                        procedure creation.</p>
+                </div>
+            </div>
+            <div class="service-row">
+                <div class="service-info">
+                    <h3>04 // Full-Stack Features</h3>
+                    <p>Developing robust monolithic features including backend logic, database persistence, and
+                        responsive UI components with JS and Bootstrap.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience & Projects Section -->
+    <section id="experience" class="experience section-padding bg-alt">
+        <div class="section-header">
+            <span class="subtitle">Career Journey</span>
+            <h2>Professional Experience</h2>
+        </div>
+
+        <div class="timeline reveal">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="date">Jul 2024 – Present</span>
+                    <h3>Software Engineer (.NET Core / Backend)</h3>
+                    <h4>Joyalukkas, Bangalore</h4>
+                    <p>Led and completed development of a Gold Kiosk Purchase Management System for vendor onboarding
+                        and image-based procurement. Designed scalable backend components using ASP.NET Core MVC,
+                        optimized SQL queries, and automated deployment processes using Azure DevOps.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="date">Aug 2022 – Jul 2024</span>
+                    <h3>.NET Developer</h3>
+                    <h4>Safari Group of Companies, Edappal</h4>
+                    <p>Developed ERP modules for finance, inventory, and sales using ASP.NET Core MVC and WinForms.
+                        Built REST APIs, maintained SQL Server/Oracle databases, and designed operational reports using
+                        Crystal Reports. Improved legacy workflows.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects section-padding">
+        <div class="section-header">
+            <span class="subtitle">Showcase</span>
+            <h2>Key Projects</h2>
+        </div>
+
+    <div class="project-filters">
+        <button data-filter="all" class="active">All</button>
+        <button data-filter="enterprise">Enterprise</button>
+        <button data-filter="module">Module</button>
+        <button data-filter="system">System</button>
+        <button data-filter="api">API</button>
+    </div>
+
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card reveal enterprise" onclick="openModal('modal-1')">
+                <div class="project-img">
+                    <div class="placeholder bg-gradient-1"><i class="fas fa-gem"></i></div>
+                </div>
+                <div class="project-content">
+                    <span class="badge">Enterprise</span>
+                    <h3>Gold Kiosk Purchase Management</h3>
+                    <p>Completed system for gold item purchasing from vendors featuring multi-stage approval workflows
+                        and image galleries.</p>
+                    <span class="view-more">View Details <i class="fas fa-arrow-right"></i></span>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+           <div class="project-card reveal module" onclick="openModal('modal-2')">
+                <div class="project-img">
+                    <div class="placeholder bg-gradient-2"><i class="fas fa-truck-loading"></i></div>
+                </div>
+                <div class="project-content">
+                    <span class="badge">Module</span>
+                    <h3>Supplier Order System</h3>
+                    <p>Admin approval dashboard with dynamic image galleries, filtering, favorites tracking, and
+                        responsive mobile layouts.</p>
+                    <span class="view-more">View Details <i class="fas fa-arrow-right"></i></span>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card reveal system" onclick="openModal('modal-3')">
+                <div class="project-img">
+                    <div class="placeholder bg-gradient-3"><i class="fas fa-images"></i></div>
+                </div>
+                <div class="project-content">
+                    <span class="badge">System</span>
+                    <h3>Design Catalogue Management</h3>
+                    <p>Dynamic gallery generation handling master/sub-images, server synchronized favorites, and complex
+                        SQL data retrieval.</p>
+                    <span class="view-more">View Details <i class="fas fa-arrow-right"></i></span>
+                </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="project-card reveal api" onclick="openModal('modal-4')">
+                <div class="project-img">
+                    <div class="placeholder bg-gradient-4"><i class="fas fa-sync-alt"></i></div>
+                </div>
+                <div class="project-content">
+                    <span class="badge">API & Sync</span>
+                    <h3>Backend Services & ERP Sync</h3>
+                    <p>Development of background processes, REST APIs, database sync services, and continuous
+                        enhancement of legacy ERP workflows.</p>
+                    <span class="view-more">View Details <i class="fas fa-arrow-right"></i></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modals for Projects -->
+    <div id="modal-1" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal-1')">&times;</span>
+            <h2>Gold Kiosk Purchase Management System</h2>
+            <h3>Joyalukkas | Role: Software Engineer</h3>
+            <div class="modal-body">
+                <p>An internal kiosk system used to procure gold items from local vendors and manage approvals within
+                    the company.</p>
+                <h4>Key Features Built:</h4>
+                <ul>
+                    <li>Vendor gold item image upload system</li>
+                    <li>Multi-stage approval workflow (Purchase Dept -> Admin)</li>
+                    <li>Design gallery with filtering, favorites, and bulk ordering</li>
+                    <li>Color-coded tracking for sales analysis</li>
+                    <li>Image zoom and modal view for design inspection</li>
+                </ul>
+                <h4>Tech Stack:</h4>
+                <p>ASP.NET Web Forms, C#, MS SQL Server, JavaScript, Bootstrap, AJAX</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-2" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal-2')">&times;</span>
+            <h2>Supplier Order Module</h2>
+            <div class="modal-body">
+                <p>Comprehensive dashboard and gallery system for handling supplier orders and approvals.</p>
+                <h4>Key Features Built:</h4>
+                <ul>
+                    <li>Admin approval dashboard</li>
+                    <li>Image gallery with filters and modal popup details</li>
+                    <li>Like/Unlike and session-based selection of images</li>
+                    <li>Responsive mobile layout improvements</li>
+                </ul>
+                <h4>Technical Work:</h4>
+                <p>Complex JS gallery rendering, SQL stored procedures, server-side favorite tracking.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-3" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal-3')">&times;</span>
+            <h2>Design Catalogue / Image Management System</h2>
+            <div class="modal-body">
+                <p>Robust cataloging system managing relationships between master and sub-images of designs.</p>
+                <h4>Key Features Built:</h4>
+                <ul>
+                    <li>Dynamic gallery generation and filtering</li>
+                    <li>Master image + sub-image handling and swapping logic</li>
+                    <li>Fullscreen image viewer</li>
+                </ul>
+                <h4>Backend Work:</h4>
+                <p>Complex stored procedure (SpDesignGallery) handling dropdowns, filters, master/sub relations, and CSV
+                    exports.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-4" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal-4')">&times;</span>
+            <h2>Backend Services & ERP Integration</h2>
+            <div class="modal-body">
+                <p>Backend data synchronization services and ERP enhancements across organizations.</p>
+                <h4>Key Work:</h4>
+                <ul>
+                    <li>Customer data sync background services (Insert/Update)</li>
+                    <li>API creation in Visual Studio and Postman testing</li>
+                    <li>REST API JSON data exchange with external services</li>
+                    <li>ERP finance and inventory module improvements</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+<section class="github section-padding">
+<h2>GitHub Projects</h2>
+<div id="githubRepos"></div>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding bg-alt">
+        <div class="contact-container reveal">
+            <div class="contact-info">
+                <h2>Ready to Build Systems?</h2>
+                <p>I'm currently focused on API development and backend services, looking for opportunities to
+                    contribute to scalable and integration-ready enterprise systems.</p>
+
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="icon"><i class="fas fa-phone"></i></div>
+                        <div>
+                            <span>Phone</span>
+                            <p>+91 94478 56031</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon"><i class="fas fa-envelope"></i></div>
+                        <div>
+                            <span>Email</span>
+                            <p>muhammedshahid823@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div>
+                            <span>Location</span>
+                            <p>Arifa Cottage (H), Elathur (PO),<br>Kozhikode, Kerala 673303</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form-container">
+            <form id="contact-form">
+
+<div class="form-group">
+<input type="text" name="name" placeholder="Your Name" required>
+</div>
+
+<div class="form-group">
+<input type="email" name="email" placeholder="Your Email" required>
+</div>
+
+<div class="form-group">
+<textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+</div>
+
+<button type="submit" class="btn btn-primary w-100">
+Send Message
+</button>
+
+</form>
+<body>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>Muhammed Sahid MA<span>.dev</span></h3>
+                <p>Software Engineer specialized in Backend Systems & APIs.</p>
+            </div>
+            <div class="footer-social">
+                <a href="https://www.linkedin.com/in/muhammed-sahid-m-a-18a348285" target="_blank"><i
+                        class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/Shahid1341" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Muhammed Sahid M A. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="script.js"></script>
+
+</body>
+
+</html>
